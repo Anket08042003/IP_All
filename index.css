@@ -1,0 +1,16 @@
+.box {
+  width: 70%;
+  box-shadow: 10px 10px 8px #888888;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+.container {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+a {
+  margin: 10px;
+}
