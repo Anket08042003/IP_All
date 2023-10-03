@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Customized T-Shirt Order Form</title>
     <link rel="stylesheet" href="./exp4.css" />
+    <script src="/exp4.js"></script>
   </head>
   <body>
     <div class="main">
@@ -32,7 +33,7 @@
               </tr>
               <tr>
                 <td>
-                  <label for="tagline"
+                  <label for="color"
                     ><b><u>Color:</u></b></label
                   >
                 </td>
@@ -48,7 +49,7 @@
               </tr>
               <tr>
                 <td>
-                  <label for="tagline"
+                  <label for="size"
                     ><b><u>Size:</u></b></label
                   >
                 </td>
@@ -64,7 +65,7 @@
               </tr>
               <tr>
                 <td>
-                  <label for="tagline"
+                  <label for="quantity"
                     ><b><u>Quantity:</u></b></label
                   >
                 </td>
@@ -80,7 +81,7 @@
               </tr>
               <tr>
                 <td>
-                  <label for="tagline"
+                  <label for="delivery_date"
                     ><b><u>Delivery Date:</u></b></label
                   >
                 </td>
@@ -95,7 +96,7 @@
               </tr>
               <tr>
                 <td>
-                  <label for="tagline"
+                  <label for="delivery_details"
                     ><b><u>Other Delivery Details:</u></b></label
                   >
                 </td>
@@ -108,6 +109,16 @@
                   ></textarea>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <label for="mobile"
+                    ><b><u>Mobile No:</u></b></label
+                  >
+                </td>
+                <td>
+                  <input type="tel" id="mobile" name="mobile" required />
+                </td>
+              </tr>
             </table>
 
             <!-- Submit button -->
@@ -118,5 +129,7 @@
         </div>
       </div>
     </div>
+
+    <div id="receipt"></div>
   </body>
 </html>
